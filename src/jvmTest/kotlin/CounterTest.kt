@@ -1,7 +1,12 @@
+import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
 
 class CounterTest: StringSpec({
+    "invalid_range" {
+        shouldThrow<IllegalStateException> { Counter(initValue = 0, min = 0, max = -1) }
+        shouldThrow<IllegalStateException> { Counter(initValue = 0, min = 1, max = 0) }
+    }
     "increment" {
         val counter = Counter(initValue = 0, min = 0, max = 100)
         counter.increment()
