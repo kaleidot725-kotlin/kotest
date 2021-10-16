@@ -17,6 +17,10 @@ kotlin {
         testRuns["test"].executionTask.configure {
             useJUnit()
         }
+
+        tasks.withType<Test> {
+            useJUnitPlatform()
+        }
     }
     js(LEGACY) {
         browser {
@@ -33,25 +37,27 @@ kotlin {
         isMingwX64 -> mingwX64("native")
         else -> throw GradleException("Host OS is not supported in Kotlin/Native.")
     }
-
-    
     sourceSets {
         val commonMain by getting
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test-common"))
                 implementation(kotlin("test-annotations-common"))
+                implementation("io.kotest:kotest-assertions-core:4.6.3")
+                implementation("io.kotest:kotest-property:4.6.3")
             }
         }
         val jvmMain by getting
         val jvmTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
+                implementation("io.kotest:kotest-runner-junit5:4.6.3")
             }
         }
         val jsMain by getting
         val jsTest by getting {
             dependencies {
+                implementation("io.kotest:kotest-framework-engine:4.6.3")
                 implementation(kotlin("test-js"))
             }
         }

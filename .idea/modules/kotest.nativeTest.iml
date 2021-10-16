@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output-test url="file://$MODULE_DIR$/../../build/classes/kotlin/native/test/klib" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/nativeTest">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/nativeTest/kotlin" type="kotlin-test" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/nativeTest/resources" type="kotlin-test-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - stdlib" level="project" />
+    <orderEntry type="module" module-name="kotest.commonMain" scope="TEST" />
+    <orderEntry type="module" module-name="kotest.commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="kotest.nativeMain" scope="TEST" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AVFoundation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AVKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Accelerate [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Accessibility [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Accounts [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AdSupport [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AddressBook [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AppKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AppTrackingTransparency [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ApplicationServices [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AudioToolbox [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AudioUnit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AuthenticationServices [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - AutomaticAssessmentConfiguration [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - BackgroundTasks [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - BusinessChat [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CFNetwork [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CallKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ClassKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CloudKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Cocoa [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Collaboration [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CommonCrypto [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Contacts [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ContactsUI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreAudio [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreAudioKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreAudioTypes [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreBluetooth [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreData [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreFoundation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreGraphics [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreHaptics [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreImage [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreLocation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreMIDI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreML [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreMedia [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreMotion [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreServices [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreSpotlight [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreTelephony [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreText [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreVideo [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CoreWLAN [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - CryptoTokenKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - DeviceCheck [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - DiskArbitration [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - EventKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ExceptionHandling [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ExecutionPolicy [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ExternalAccessory [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - FWAUserLib [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - FileProvider [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - FileProviderUI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - FinderSync [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ForceFeedback [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Foundation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GLKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GLUT [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GSS [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GameController [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GameKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - GameplayKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Hypervisor [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IOBluetooth [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IOBluetoothUI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IOKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IOSurface [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IOUSBHost [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - IdentityLookup [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ImageCaptureCore [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ImageIO [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Intents [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - JavaNativeFoundation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - JavaRuntimeSupport [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - JavaScriptCore [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - KernelManagement [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - LinkPresentation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - LocalAuthentication [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MLCompute [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MapKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MediaAccessibility [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MediaLibrary [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MediaPlayer [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MediaToolbox [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Metal [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MetalKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MetalPerformanceShaders [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MetalPerformanceShadersGraph [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MetricKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ModelIO [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - MultipeerConnectivity [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - NaturalLanguage [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - NearbyInteraction [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Network [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - NetworkExtension [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - NotificationCenter [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - OSLog [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - OpenDirectory [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - OpenGL [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - OpenGL3 [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - OpenGLCommon [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PDFKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ParavirtualizedGraphics [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PassKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PencilKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Photos [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PhotosUI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PreferencePanes [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - PushKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Quartz [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - QuartzCore [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - QuickLook [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - QuickLookThumbnailing [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ReplayKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SafariServices [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SceneKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ScreenSaver [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ScreenTime [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ScriptingBridge [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Security [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SecurityFoundation [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SecurityInterface [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SensorKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - ServiceManagement [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Social [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SoundAnalysis [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Speech [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SpriteKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - StoreKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SystemConfiguration [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - SystemExtensions [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - UniformTypeIdentifiers [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - UserNotifications [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - UserNotificationsUI [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - VideoSubscriberAccount [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - VideoToolbox [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Virtualization [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - Vision [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - WebKit [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - builtin [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - darwin [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - iTunesLibrary [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - iconv [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - libkern [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - objc [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - osx [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - posix [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - vmnet [macos_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.5.0 - zlib [macos_x64]" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-assertions-core-macosx64:klib:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-assertions-shared-macosx64:klib:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-common-macosx64:klib:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-macosx64:klib:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-assertions-api-macosx64:klib:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:0.16.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu-macosx64:klib:cinterop-interop:0.16.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-assertions-shared:desktopMain:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeDarwinMain:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-common:commonMain:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.kotest:kotest-common:desktopMain:4.6.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.16.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.16.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.16.1" level="project" />
+  </component>
+</module>

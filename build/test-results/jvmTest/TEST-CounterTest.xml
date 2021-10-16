@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CounterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-16T02:21:39" hostname="Kaleidot725-2.local" time="0.286">
+  <properties/>
+  <testcase name="increment[jvm]" classname="CounterTest" time="0.251"/>
+  <testcase name="increment_when_max_is_exceeded[jvm]" classname="CounterTest" time="0.002"/>
+  <testcase name="decrement[jvm]" classname="CounterTest" time="0.002"/>
+  <testcase name="decrement_when_min_is_exceeded[jvm]" classname="CounterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.InstantiateSpecKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.NodeList: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.impl.serialization.deserialization.descriptors.DeserializedClassDescriptor$DeserializedClassMemberScope: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.impl.serialization.deserialization.descriptors.DeserializedMemberScope$OptimizedImplementation: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.impl.resolve.InlineClassesUtilsKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.KFunctionImpl$caller$2: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.KFunctionImpl$defaultCaller$2: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.ReflectJvmMapping: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.impl.resolve.jvm.InlineClassManglingRulesKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlin.reflect.jvm.internal.calls.InlineClassAwareCallerKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.test.DescriptionNameKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.test.Enabled$Companion: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.spec.MaterializeAndOrderRootTestsKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.internal.EnabledKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.spec.FocusbangKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.extensions.LookupKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.SpecExecutor$runTests$run$1: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.runners.SingleInstanceSpecRunner: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.SpecRunner: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.internal.ConcurrencyKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.launchers.SequentialTestLauncher: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.runners.SingleInstanceSpecRunner$execute$3: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.runners.SingleInstanceSpecRunner$execute$interceptAndRun$2$4: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.internal.TestCaseExecutor: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.ExecutorExecutionContext: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.engine.spec.runners.SingleInstanceSpecRunner$Context: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.internal.TestCaseExecutor$executeAndWait$4: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.DelayKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.EventLoopImplBase$DelayedTask: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.internal.ThreadSafeHeap: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.JobKt__JobKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: kotlinx.coroutines.UndispatchedCoroutine: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:39] (Coverage): Error during class instrumentation: io.kotest.core.internal.ExecutionsKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+[2021.10.16 11:21:40] (Coverage): Error during class instrumentation: kotlin.coroutines.jvm.internal.DebugMetadataKt: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 14
+]]></system-err>
+</testsuite>

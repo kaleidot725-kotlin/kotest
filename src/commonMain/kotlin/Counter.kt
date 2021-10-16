@@ -10,7 +10,7 @@ class Counter(initValue: Int, min: Int, max: Int) {
         private set
 
     init {
-        check(min <= max) { "invalid parameter.(min or max)" }
+        check(min <= max) { "invalid parameter" }
     }
 
     fun increment() {
